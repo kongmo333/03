@@ -1,0 +1,17 @@
+//
+// Created by 74943 on 2026/11/17.
+//
+
+#ifndef TEST04_LED_H
+#define TEST04_LED_H
+
+#include "gpio.h"
+#include "main.h"
+#include <stdint.h>
+
+void LED_Task(void);
+void LED_Key_ToggleRun(void);
+void LED_Key_ToggleDir(void);
+void LED_Key_Reset(void);
+
+#endif //TEST04_LED_H
